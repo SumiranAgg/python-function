@@ -32,5 +32,5 @@ jobs:
       id: fa
       with:
         app-name: python-sa
-        publish-profile: ${{secrets.python-sa}}
+        publish-profile: ${{secrets.python_sa}}
         package: './LocalFunctionProj'
